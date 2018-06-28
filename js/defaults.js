@@ -22,7 +22,7 @@ var defaults = {
 	language: "en",
 	timeFormat: 24,
 	units: "metric",
-	zoom: 1,
+	zoom: 0.75,
 	customCss: "css/custom.css",
 
 	modules: [
