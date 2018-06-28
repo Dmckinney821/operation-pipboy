@@ -16,7 +16,8 @@ var defaultModules = [
 	"helloworld",
 	"newsfeed",
 	"weatherforecast",
-	"updatenotification"
+	"updatenotification",
+	"youtube"
 ];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
