@@ -57,11 +57,7 @@ Temporary Items
 # Various Magic Mirror ignoramuses and anti-ignoramuses.
 
 
-# Ignore all modules except the default modules.
-/modules/**
-!/modules/default
-!/modules/default/**
-!/modules/README.md**
+
 
 
 # Vim
