@@ -250,3 +250,6 @@ A real Manifesto is still to be written. Till then, Michael's response on [one o
 ### FUSE for Mac & SSHFS to run synchronous file editing from VSCode to Pi
 ### run sshfs pi@10.150.40.206:/home/pi/MagicMirror ~/DigitalCrafts-2018-04/remotepi to re-establish the SSH connection 
 
+
+## To debug:
+### npm run config:check
