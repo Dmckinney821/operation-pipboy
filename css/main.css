@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  margin: 60px;
-  position: absolute;
+  margin: 20px;
+  position: static;
   height: calc(100% - 120px);
   width: calc(100% - 120px);
   background: #000;
@@ -27,15 +27,15 @@ body {
  */
 
 .dimmed {
-  color: #666;
+  color: rgb(38, 90, 40);
 }
 
 .normal {
-  color: #999;
+  color: rgb(25, 199, 19);
 }
 
 .bright {
-  color: #fff;
+  color: rgb(38, 243, 11);
 }
 
 .xsmall {
@@ -99,8 +99,8 @@ header {
   font-weight: 400;
   border-bottom: 1px solid #666;
   line-height: 15px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
   color: #999;
 }
 
@@ -138,10 +138,10 @@ sup {
 
 .region.fullscreen {
   position: absolute;
-  top: -60px;
-  left: -60px;
-  right: -60px;
-  bottom: -60px;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
   pointer-events: none;
 }
 
