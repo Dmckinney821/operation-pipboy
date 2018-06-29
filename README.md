@@ -1,4 +1,4 @@
-![MagicMirror²: The open source modular smart mirror platform. ](.github/header.png)
+<!-- ![MagicMirror²: The open source modular smart mirror platform. ](.github/header.png)
 
 <p align="center">
 	<a href="https://david-dm.org/MichMich/MagicMirror"><img src="https://david-dm.org/MichMich/MagicMirror.svg" alt="Dependency Status"></a>
@@ -216,4 +216,40 @@ A real Manifesto is still to be written. Till then, Michael's response on [one o
 <p align="center">
 <br>
 	<a href="https://forum.magicmirror.builders/topic/728/magicmirror-is-voted-number-1-in-the-magpi-top-50"><img src="https://magicmirror.builders/img/magpi-best-watermark-custom.png" width="150" alt="MagPi Top 50"></a>
-</p>
+</p> -->
+
+# smartwatch
+
+## sudo diskUtil list
+## sudo diskUtil unmountDisk /dev/disk2
+## sudo dd if=~/Desktop/2018-04-18-raspbian-stretch.img of=/dev/rdisk2 bs=4096
+
+## for setting up screen compatability with raspberry pi 
+### cd ~
+### wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/adafruit-pitft.sh
+#### chmod +x adafruit-pitft.sh
+### sudo ./adafruit-pitft.sh
+
+## Set up of screen
+### $ sudo raspi-config
+### set the country and enter SSI to wifi name
+### configure the keyboard with the keyword layout
+### $ reboot
+### $ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
+
+### $ cd MagicMirror/
+### $ npm install
+
+### troubles with getting touch screen responsiveness to work.
+### Rolled back the update of Raspbian to MArch 2018
+
+## To start Magic Mirror boot:
+### run DISPLAY=:0 npm start from the ~/MagicMirror directory
+
+## Using:
+### FUSE for Mac & SSHFS to run synchronous file editing from VSCode to Pi
+### run sshfs pi@10.150.40.206:/home/pi/MagicMirror ~/DigitalCrafts-2018-04/remotepi to re-establish the SSH connection 
+
+
+## To debug:
+### npm run config:check
