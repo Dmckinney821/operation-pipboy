@@ -16,7 +16,12 @@ Module.register("newsfeed",{
 				title: "New York Times",
 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
 				encoding: "UTF-8" //ISO-8859-1
-			}
+			},
+			{	title: "espn",
+				url: "http://www.espn.com/espn/rss/news",
+				encoding: "UTF-8", 
+		
+		}
 		],
 		showSourceTitle: true,
 		showPublishDate: true,
