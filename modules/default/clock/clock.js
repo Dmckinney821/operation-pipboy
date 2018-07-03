@@ -2,8 +2,6 @@
 /* Magic Mirror
  * Module: Clock
  *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 Module.register("clock",{
 	// Module config defaults.
@@ -20,7 +18,7 @@ Module.register("clock",{
 		dateFormat: "dddd, LL",
 
 		/* specific to the analog clock */
-		analogSize: "200px",
+		analogSize: "100px",
 		analogFace: "simple", // options: 'none', 'simple', 'face-###' (where ### is 001 to 012 inclusive)
 		analogPlacement: "bottom", // options: 'top', 'bottom', 'left', 'right'
 		analogShowDate: "top", // options: false, 'top', or 'bottom'
@@ -231,7 +229,7 @@ Module.register("clock",{
 				digitalWrapper.style.verticalAlign = "top";
 				analogWrapper.style.display = "inline-block";
 
-				appendClocks("left", 1, 3);
+				appendClocks("right", 1, 3);
 			} else {
 				digitalWrapper.style.textAlign = "center";
 

@@ -34,23 +34,23 @@ var config = {
             module: "clock",
             position: "top_left"
         },
-        // {
-        //     module: "calendar",
-        //     header: "US Holidays",
-        //     position: "top_left",
-        //     config: {
-        //         calendars: [
-        //             {
-        //                 symbol: "calendar-check-o ",
-        //                 url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
-        //             }
-        //         ]
-        //     }
-        // },
         {
-            module: "compliments",
-            position: "lower_third"
+            module: "calendar",
+            header: "US Holidays",
+            position: "top_left",
+            config: {
+                calendars: [
+                    {
+                        symbol: "calendar-check-o ",
+                        url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+                    }
+                ]
+            }
         },
+        // {
+        //     module: "compliments",
+        //     position: "lower_third"
+        // },
         {
             module: "currentweather",
             position: "top_right",
@@ -71,20 +71,20 @@ var config = {
         //     }
         // },
         
-        // {
-        //     module: "newsfeed",
-        //     position: "bottom_bar",
-        //     config: {
-        //         feeds: [
-        //             {
-        //                 title: "New York Times",
-        //                 url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-        //             }
-        //         ],
-        //         showSourceTitle: true,
-        //         showPublishDate: true
-        //     }
-        // },
+        {
+            module: "newsfeed",
+            position: "bottom_bar",
+            config: {
+                feeds: [
+                    {
+                        title: "New York Times",
+                        url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+                    }
+                ],
+                showSourceTitle: true,
+                showPublishDate: true
+            }
+        },
     ]
 };
 /*************** DO NOT EDIT THE LINE BELOW ***************/

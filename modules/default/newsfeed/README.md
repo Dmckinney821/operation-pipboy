@@ -18,13 +18,19 @@ modules: [
 
 			feeds: [
 				{
+					title: "ESPN",
+					url: "http://www.espn.com/espn/news/story?page=rssinfo",
+				},	
+				{
 					title: "New York Times",
 					url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
 				},
+				
 				{
 					title: "BBC",
 					url: "http://feeds.bbci.co.uk/news/video_and_audio/news_front_page/rss.xml?edition=uk",
 				},
+					
 			]
 		}
 	}
