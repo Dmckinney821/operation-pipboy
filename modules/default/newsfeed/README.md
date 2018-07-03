@@ -307,4 +307,4 @@ Listed below are some features that we would love to include in the next update:
 -Customizability of watch face: Dark, light, hacker, pip-boy
 -speaker and amplifier attached to raspberry pi 
 -send request from touch event
-<!-- -phone bluetooth to determine custom settings -->
+-phone bluetooth to determine custom settings
