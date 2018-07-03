@@ -107,7 +107,6 @@ var config = {
 ## 
 rpi  update to the new kernal and then 
 ## Group Hurdles
-The dificulty 
 <br>
 <br>
 ### Thor
@@ -129,7 +128,8 @@ This module displays news headlines based on an RSS feed. Scrolling through news
  attribute url string - URL of the news feed.
  attribute reloadInterval number - Reload interval in milliseconds.
 
- ```var Fetcher = function(url, reloadInterval, encoding) {
+ ```
+ var Fetcher = function(url, reloadInterval, encoding) {
 	var self = this;
 	if (reloadInterval < 1000) {
 		reloadInterval = 1000;
@@ -206,8 +206,8 @@ This module displays news headlines based on an RSS feed. Scrolling through news
 			})
 			.pipe(iconv.decodeStream(encoding)).pipe(parser);
 
-	};```
-
+	};
+	```
 
 
 ### The clock module is one of the modules we have added into the default programs.
@@ -294,8 +294,8 @@ This module displays the current date and time. The information will be updated 
 		}
 		if (this.config.showPeriod && this.config.timeFormat !== 24) {
 			timeWrapper.appendChild(periodWrapper);
-		}```
-</p>
+		}
+		```
 
 ### Future Features
 
